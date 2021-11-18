@@ -1,14 +1,14 @@
 package entity;
 
 import lombok.Data;
-
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 @Data
 @Entity
 @Table(name = "leagues")
-public class League {
+public class League implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,8 +18,7 @@ public class League {
 
     private int capacity;
 
-    @OneToMany(mappedBy = "league")
+    @OneToMany(fetch = FetchType.EAGER,mappedBy = "league",cascade = CascadeType.ALL)
     private List<Team> teams;
-
 
 }

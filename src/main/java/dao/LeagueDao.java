@@ -38,7 +38,7 @@ public class LeagueDao implements LeagueDaoI{
     @Override
     public List<League> listAll() {
 
-        String query = "SELECT l FROM League WHERE l.id IS NOT NULL";
+        String query = "SELECT l FROM League l WHERE l.id IS NOT NULL";
         return em.createQuery(query).getResultList();
     }
 }
