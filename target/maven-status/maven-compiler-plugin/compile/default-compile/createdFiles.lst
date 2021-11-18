@@ -1,0 +1,13 @@
+entity\Score.class
+servlet\DashboardAction.class
+entity\LoginUser.class
+entity\Manager.class
+servlet\LoginAction.class
+entity\League.class
+entity\Team.class
+servlet\RegisterAction.class
+servlet\BaseServlet.class
+entity\TeamContract.class
+entity\Player.class
+entity\Match.class
+entity\Stadium.class
