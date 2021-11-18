@@ -21,4 +21,5 @@ public class League {
     @OneToMany(mappedBy = "league")
     private List<Team> teams;
 
+
 }
