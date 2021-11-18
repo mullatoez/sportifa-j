@@ -8,16 +8,11 @@ import util.AppException;
 import javax.ejb.Stateless;
 import javax.enterprise.event.Event;
 import javax.inject.Inject;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 import java.util.List;
 import java.util.Optional;
 
 @Stateless
 public class LeagueEjb implements LeagueEjbI {
-
-    @PersistenceContext
-    private EntityManager em;
 
     @Inject
     private LeagueDaoI leagueDao;

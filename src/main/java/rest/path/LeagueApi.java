@@ -1,9 +1,10 @@
 package rest.path;
 
+import dao.LeagueDao;
 import ejb.LeagueEjbI;
 import entity.League;
 
-import javax.inject.Inject;
+import javax.ejb.EJB;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
@@ -12,7 +13,7 @@ import java.util.List;
 @Path("league")
 public class LeagueApi {
 
-    @Inject
+    @EJB
     private LeagueEjbI leagueEjb;
 
     @Path("/list")
