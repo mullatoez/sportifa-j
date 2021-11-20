@@ -9,15 +9,19 @@ servlet\LoginAction.class
 ejb\TeamEjbI.class
 rest\path\TeamApi.class
 dao\TeamDaoI.class
+dao\PlayerDaoI.class
 ejb\LeagueEjbI.class
+ejb\PlayerEjb.class
 ejb\LeagueEjb.class
 entity\Team.class
 servlet\RegisterAction.class
 util\AppException.class
 servlet\BaseServlet.class
 dao\GenericDaoI.class
+dao\PlayerDao.class
 entity\Player.class
 dao\LeagueDao.class
+ejb\PlayerEjbI.class
 entity\Score.class
 servlet\DashboardAction.class
 ejb\ManagerEjb.class
@@ -31,6 +35,7 @@ dao\ManagerDao.class
 ejb\ManagerEjbI.class
 dao\MatchDaoI.class
 dao\ManagerDaoI.class
+rest\path\PlayerApi.class
 event\Sms.class
 event\SmsEvent.class
 entity\TeamContract.class

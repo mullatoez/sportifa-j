@@ -4,6 +4,7 @@ C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\dao\MatchDaoI.j
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\util\AppException.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\event\SmsEvent.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\servlet\DashboardAction.java
+C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\dao\PlayerDao.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\entity\Player.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\entity\Team.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\dao\TeamDao.java
@@ -18,6 +19,7 @@ C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\dao\MatchDao.ja
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\ejb\ManagerEjb.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\ejb\TeamEjb.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\event\Sms.java
+C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\rest\path\PlayerApi.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\ejb\TeamEjbI.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\servlet\BaseServlet.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\entity\Match.java
@@ -35,5 +37,8 @@ C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\entity\Stadium.
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\ejb\MatchEjb.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\dao\GenericDaoI.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\dao\LeagueDaoI.java
+C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\ejb\PlayerEjbI.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\dao\GenericDao.java
 C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\ejb\ManagerEjbI.java
+C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\dao\PlayerDaoI.java
+C:\Users\Mullatoez\Desktop\workspace\Java\Sportifa\src\main\java\ejb\PlayerEjb.java
