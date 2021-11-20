@@ -1,7 +1,10 @@
 rest\path\ManagerApi.class
 rest\base\BaseConfigApi.class
+rest\path\MatchApi.class
 dao\LeagueDaoI.class
 entity\LoginUser.class
+dao\MatchDao.class
+ejb\MatchEjb.class
 servlet\LoginAction.class
 ejb\TeamEjbI.class
 rest\path\TeamApi.class
@@ -19,12 +22,14 @@ entity\Score.class
 servlet\DashboardAction.class
 ejb\ManagerEjb.class
 dao\TeamDao.class
+ejb\MatchEjbI.class
 entity\Manager.class
 entity\League.class
 rest\path\LeagueApi.class
 dao\GenericDao.class
 dao\ManagerDao.class
 ejb\ManagerEjbI.class
+dao\MatchDaoI.class
 dao\ManagerDaoI.class
 event\Sms.class
 event\SmsEvent.class
